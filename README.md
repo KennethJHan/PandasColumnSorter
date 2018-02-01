@@ -37,5 +37,5 @@
 ######    3:12345   A/A       A/A
 ######    4:12345   A/C       C/C
 
-######YOU CAN SORT AND SELECT COLUMNS!
-######HAVE FUN :)
+###### YOU CAN SORT AND SELECT COLUMNS!
+###### HAVE FUN :)
