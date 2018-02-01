@@ -97,7 +97,7 @@ if __name__ == "__main__":
 #                      -H [true/false]    # Header
 #                      -S [csv/tsv/space] # Separator
 #                      -G <file>          # [Optional] Group File, containing group column information
-#        $ dataFrameMaker.py -f test1.txt -H true -S tsv -G groupfile.txt
+#        $ PandasColumnSorter.py -f test1.txt -H true -S tsv -G groupfile.txt
 #        Name      Sample3   Sample2
 #        1:12345   T/G       G/G
 #        1:67890   C/C       G/C
