@@ -4,7 +4,7 @@ import sys
 import getopt
 import pandas as pd
 from pandas import DataFrame
-from pandas import Series
+
 
 class dataFrameMaker:
     def __init__(self):
@@ -71,6 +71,8 @@ if __name__ == "__main__":
 #end: if
 
 
+
+
 ### HOW TO USE THIS SCRIPT ###
 #    0) REQUIREMENT
 #        - PYTHON
@@ -91,6 +93,10 @@ if __name__ == "__main__":
 #        Sample2
 #
 #    3) Run command.
+#        - Options:    -f <file>          # File, data file
+#                      -H [true/false]    # Header
+#                      -S [csv/tsv/space] # Separator
+#                      -G <file>          # [Optional] Group File, containing group column information
 #        $ dataFrameMaker.py -f test1.txt -H true -S tsv -G groupfile.txt
 #        Name      Sample3   Sample2
 #        1:12345   T/G       G/G
