@@ -1,0 +1,6 @@
+Name Sample1 Sample2 Sample3
+1:12345 G/G G/G T/G
+1:67890 C/C G/C C/C
+2:12345 G/T T/T T/T
+3:12345 C/A A/A A/A
+4:12345 A/C C/C A/C
