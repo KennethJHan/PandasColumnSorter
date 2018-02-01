@@ -78,7 +78,7 @@ if __name__ == "__main__":
 #        - PYTHON
 #        - PANDAS LIBRARY
 #
-#    1) This is an example file delmited by tab.
+#    1) THIS IS AN EXAMPLE FILE DELIMITED BY TAB.
 #        $ cat test1.txt
 #        Name    Sample1 Sample2 Sample3
 #        1:12345 G/G     G/G     T/G
@@ -87,12 +87,12 @@ if __name__ == "__main__":
 #        3:12345 C/A     A/A     A/A
 #        4:12345 A/C     C/C     A/C
 #
-#    2) This is a group file. We will sort columns by this order.
+#    2) THIS IS A GROUP FILE. WE WILL SORT COLUMNS BY THIS ORDER.
 #        Name
 #        Sample3
 #        Sample2
 #
-#    3) Run command.
+#    3) RUN COMMAND.
 #        - Options:    -f <file>          # File, data file
 #                      -H [true/false]    # Header
 #                      -S [csv/tsv/space] # Separator
@@ -105,5 +105,6 @@ if __name__ == "__main__":
 #        3:12345   A/A       A/A
 #        4:12345   A/C       C/C
 #
-#  You can sort and select columns!
-#  Have fun :)
+#  YOU CAN SORT AND SELECT COLUMNS!
+#  HAVE FUN :)
+###
