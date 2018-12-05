@@ -20,7 +20,8 @@ class dataFrameMaker:
         else:
             self.df = pd.read_csv(self.inFile, sep=sSeperator, header=None)
     def printDataFrame(self):
-        print(self.df.to_string(index=False))
+        #print(self.df.to_string(index=False))  ## pandas cannot print whole text when the string is too long..
+        self.df.to_csv(sys.stdout)
     def sortDataFrame(self, **kwargs):
         fGroupFile = kwargs["groupfile"]
         lOrder = []
